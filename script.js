@@ -42,7 +42,7 @@ let i;
 
  for (i = 0; i < list.length; i++) {
 create[i].addEventListener("click", (create,cityName) => {  
-        cityName=create.target.innerHTML;
+        cityName=create.path[1].innerText;
         fetchData(cityName);  
  })
  };
