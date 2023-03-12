@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous">
+    <title>Weather</title>
+
+</head>
+<body >
+  <div class="container-fluid row" >   
+   
+
+      <div class="col-3  mt-5 ms-5 " style="height: 900px;overflow: auto;">
+        <div class="row">
+          <div class="col-3 " style="height: 1200px;">
+                <label  for="Armenia" class="container_label">.
+                  <input type="checkbox" id="Armenia" class="checkbox" >
+                  <span class="checkmark"></span>
+                </label>
+                <label for="Australia" class="container_label">.
+                  <input type="checkbox" id="Australia" class="checkbox" >
+                  <span class="checkmark"></span>
+                </label>
+                <label for="Italy" class="container_label">.
+                  <input type="checkbox" id="Italy" class="checkbox">
+                  <span class="checkmark"></span>
+                </label> 
+                <label for="Germany" class="container_label">.
+                  <input type="checkbox" id="Germany" class="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+                <label for="Austria" class="container_label">.
+                  <input type="checkbox" id="Austria" class="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+              </label> 
+              <label for="Egypt" class="container_label">.
+                <input type="checkbox" id="Egypt" class="checkbox">
+                <span class="checkmark"></span>
+              </label>
+              <label for="Indonesia" class="container_label">.
+                <input type="checkbox" id="Indonesia"  class="checkbox">
+                <span class="checkmark"></span>
+              </label>
+            </label> 
+            <label for="Brazil" class="container_label">. 
+              <input type="checkbox" id="Brazil" class="checkbox">
+              <span class="checkmark"></span>
+            </label>
+            <label for="France" class="container_label">.
+              <input type="checkbox" id="France" class="checkbox">
+              <span class="checkmark"></span>
+            </label>
+              <label for="Georgia" class="container_label ">.
+                <input type="checkbox" id="Georgia" class="checkbox">
+                <span class="checkmark"></span>
+              </label>
+              <label  for="Belarus" class="container_label">.
+                <input type="checkbox" id="Belarus" class="checkbox" >
+                <span class="checkmark"></span>
+              </label>
+              <label for="Bulgaria" class="container_label">.
+                <input type="checkbox" id="Bulgaria" class="checkbox" >
+                <span class="checkmark"></span>
+              </label>
+              <label for="Canada" class="container_label">.
+                <input type="checkbox" id="Canada" class="checkbox">
+                <span class="checkmark"></span>
+              </label> 
+              <label for="China" class="container_label">.
+                <input type="checkbox" id="China" class="checkbox">
+                <span class="checkmark"></span>
+              </label>
+              <label for="Cyprus" class="container_label">.
+                <input type="checkbox" id="Cyprus" class="checkbox">
+                <span class="checkmark"></span>
+              </label>
+            </label> 
+            <label for="Dominica" class="container_label">.
+              <input type="checkbox" id="Dominica" class="checkbox">
+              <span class="checkmark"></span>
+            </label>
+            <label for="Estonia" class="container_label">.
+              <input type="checkbox" id="Estonia"  class="checkbox">
+              <span class="checkmark"></span>
+            </label>
+          </label> 
+          <label for="Finland" class="container_label">.
+            <input type="checkbox" id="Finland" class="checkbox">
+            <span class="checkmark"></span>
+          </label>
+          <label for="Greece" class="container_label">.
+            <input type="checkbox" id="Greece" class="checkbox">
+            <span class="checkmark"></span>
+          </label>
+            <label for="India" class="container_label">.
+              <input type="checkbox" id="India" class="checkbox">
+              <span class="checkmark"></span>
+            </label>
+            
+          </div>     
+
+          <ul class="list-group list-group-flush fw-bolder col" style="height: 1200px;">
+           
+            <li class="list-group-item text-end p-3 " >Armenia </li>
+            <li class="list-group-item text-end p-3 " >Australia</li>
+            <li class="list-group-item text-end p-3" >Italy</li>
+            <li class="list-group-item text-end p-3" >Germany</li>
+            <li class="list-group-item text-end p-3" >Austria</li>
+            <li class="list-group-item text-end p-3" >Egypt</li>
+            <li class="list-group-item text-end p-3" >Indonesia</li>
+            <li class="list-group-item text-end p-3" > Brazil</li>
+            <li class="list-group-item text-end p-3" > France</li>
+            <li class="list-group-item text-end p-3" > Georgia</li>
+
+            <li class="list-group-item text-end p-3 " >Belarus</li>
+            <li class="list-group-item text-end p-3 " >Bulgaria</li>
+            <li class="list-group-item text-end p-3" >Canada</li>
+            <li class="list-group-item text-end p-3" >China</li>
+            <li class="list-group-item text-end p-3" >Cyprus</li>
+            <li class="list-group-item text-end p-3" >Dominica</li>
+            <li class="list-group-item text-end p-3" >Estonia</li>
+            <li class="list-group-item text-end p-3" >Finland</li>
+            <li class="list-group-item text-end p-3" >Greece</li>
+            <li class="list-group-item text-end p-3" >India</li>
+            
+          </ul>
+        </div>
+      </div>
+      <div class="weather col-5 m-auto mt-4">
+        <div class="country container align-self-end m-auto mt-5" style="width:500px;height: 600px; display: block;">
+            <div class="top">
+              <div class="city">
+                <div class="city-subtitle">Weather Today in</div>
+                  <div class="city-title" id="city">
+                    <span> City</span>
+                  </div>
+              </div>
+            </div>
+          
+            <div class="city-info">
+                  <div class="top-left">
+                    <img class="icon" src="" alt=""/>
+                    <div class="description">10</div>
+                  </div>
+
+                  <div class="top-right ">
+                    <div class="city-info_subtitle">as of 0</div>
+                    <div class="city-info_title">0 C</div>
+                  </div>
+            </div>
+
+        
+
+            <div id="properties" >
+              <div class="property">
+                    <div  >
+                      <img class="property-icon" src="cloud.png">
+                    </div>
+                    <div class="property-info">
+                      <div class="property-info-value cloud">0</div>
+                      <div class="property-info-description">Cloud Cover</div>
+                    </div>
+              </div>
+
+              <div class="property">
+                  <div >
+                    <img class="property-icon" src="feelslike.png">
+                  </div>
+                  <div class="property-info">
+                    <div class="property-info-value feelslike">0</div>
+                    <div class="property-info-description">Feels Like</div>
+                  </div>
+              </div>
+
+              <div class="property">
+                <div >
+                  <img class="property-icon" src="uv.png">
+                </div>
+                <div class="property-info">
+                  <div class="property-info-value uv">0</div>
+                  <div class="property-info-description">UV Index</div>
+                </div>
+              </div>
+
+              <div class="property">
+                <div >
+                  <img class="property-icon" src="humidity.png">
+                </div>
+                <div class="property-info">
+                  <div class="property-info-value humidity"></div>
+                  <div class="property-info-description">Humidity</div>
+                </div>
+              </div>
+
+              <div class="property">
+                <div >
+                  <img class="property-icon" src="pressure.png">
+                </div>
+                <div class="property-info">
+                  <div class="property-info-value pressure"></div>
+                  <div class="property-info-description">Pressure</div>
+                </div>
+              </div>
+
+              <div class="property">
+                <div >
+                  <img class="property-icon" src="wind.png">
+                </div>
+                <div class="property-info">
+                  <div class="property-info-value wind">0</div>
+                  <div class="property-info-description">Wind Speed</div>
+              </div>
+            </div>
+
+
+
+      </div>
+             
+        </div>
+
+      </div>
+
+<div class="col-3 mt-4 " style="height: 900px;overflow: auto;">
+ <div class=" row create"></div>
+ <div class=" row create"></div>
+ <div class=" row create"></div>
+ <div class=" row create"></div>
+ <div class=" row create"></div>
+ <div class=" row create"></div>
+ <div class=" row create"></div>
+ <div class=" row create"></div>
+ <div class=" row create"></div>
+ <div class=" row create"></div>
+ <div class=" row create"></div>
+ <div class=" row create"></div>
+ <div class=" row create"></div>
+ <div class=" row create"></div>
+ <div class=" row create"></div>
+ <div class=" row create"></div>
+ <div class=" row create"></div>
+ <div class=" row create"></div>
+ <div class=" row create"></div>
+ <div class=" row create"></div>
+ 
+ 
+<!--
+  <div class="city-info row justify-content-between p-3 " style="background-color: #053257;">
+        <div class="top-left col-7">
+            <div class="city-title-sec" id="city">
+              <span> Yerevan</span>
+            </div>
+          <div class="city-info_subtitle_sec">as of 2023-03-10 23:19</div>
+          <div class="property-info-description-sec">Clear</div>
+        
+        </div>
+
+        <div class=" align-right col-5 text-end">
+          <div class="city-info_title_sec ">8°C</div>
+        
+          <div class="property-info-description-sec">Feels Like 7.1°C </div>
+        </div>
+  </div>
+
+-->
+</div>
+
+      
+  </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
